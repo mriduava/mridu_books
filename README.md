@@ -1,7 +1,6 @@
-﻿#MRIDU BOOKS
-*** (Under Construction)
+﻿# MRIDU BOOKS
+> *** (Under Construction)
 
->A Voice Controlled E-Commerce Web Application<br>
 >Demo site: Coming soon<br>
 
 > @author : MARUF AHMED<br>
