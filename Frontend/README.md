@@ -3,7 +3,7 @@
 
 ## DEPENDENCIES
 * reactstrap
-* react-Proxy-Settings
+* react-amazing-proxy
 * react-router-dom
 * bootstrap
 
