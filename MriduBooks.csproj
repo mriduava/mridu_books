@@ -2,6 +2,8 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
+    <StartupObject>MriduBooks.MriduAva</StartupObject>
+    <RootNamespace>MriduBooks</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>

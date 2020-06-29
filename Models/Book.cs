@@ -9,6 +9,8 @@ namespace MriduBooks.Models
 {
     public class Book
     {
+        internal int id;
+
         [Key]
         public int Id { get; set; }
 

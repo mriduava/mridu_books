@@ -9,7 +9,7 @@ using Microsoft.Extensions.Logging;
 
 namespace MriduBooks
 {
-    public class Program
+    public class MriduAva
     {
         public static void Main(string[] args)
         {
