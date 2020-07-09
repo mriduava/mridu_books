@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using MriduBooks.Data;
 using MriduBooks.Models;
 
 namespace MriduavaBooks.Controllers
@@ -42,8 +43,6 @@ namespace MriduavaBooks.Controllers
         }
 
         // PUT: api/book/5
-        // To protect from overposting attacks, please enable the specific properties you want to bind to, for
-        // more details see https://aka.ms/RazorPagesCRUD.
         [HttpPut("{id}")]
         public async Task<IActionResult> PutBook(int id, Book book)
         {
@@ -71,8 +70,6 @@ namespace MriduavaBooks.Controllers
         }
 
         // POST: api/book
-        // To protect from overposting attacks, please enable the specific properties you want to bind to, for
-        // more details see https://aka.ms/RazorPagesCRUD.
         [HttpPost]
         public async Task<ActionResult<Book>> PostDCandidate(Book book)
         {
